@@ -1,6 +1,6 @@
 # Recipebook
 
-HTML + CSS + ANGULAR.JS <br>
+HTML + CSS + BOOTSTRAP + ANGULAR.JS  <br>
 This project is for Front-End development course @ Baltic Institute of Technology.<br>
 
 Live preview:<br>

@@ -1,5 +1,39 @@
 # Recipebook
 
+## Task:
+
++ Sukurkime receptų knygą prie kurios vartotojai turėtų galimybę prisiregistruoti/prisijungti. 
++ Prisijungę vartotojai turi galėti įkelti naujus receptus. Receptą turi sudaryti ši informacija:
+
+
+
++ Recepto pavadinimas
++ Recepto tekstas
++ Ingridientų sąrašas kurį sudaro:
+    + Ingrediento pavadinimas
+    + Ingrediento kiekis
++ Įkėlusio vartotojo el. pašto adresas
++ Įkėlusio vartotojo ID
+
+
+
++ Neprisijungę vartotojai turi galėti matyti visus receptus, 
++ tačiau neturi turėti galimybės įkelti naujų receptų.
+
+
+
+//1. Susikurti Angular projektą, sukurti firebase projektą, sudėti teises
+//2. Susikurti prisijungimo komponentą, susikurti prisijungimo servisą,
+//3. Susikurti routinimą ir padaryti rautą į prisijungimo komponentą
+//4. Susikurti prisijungimo komponento HTML failą su forma
+5. Susiprogramuoti prisijungimo servisą: Login, Logout, AutoLogin
+
+
+
+
+
+######
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
 
 ## Development server

@@ -1,0 +1,75 @@
+<div class=" mx-auto">
+  <h3 class="mt-5">Write recipes</h3>
+    <div class="card mt-3">
+        <div class="card-header"><b>Post a recipe</b></div>
+        <div class="card-body">
+            <!-- <form  (ngSubmit)="onPostRecipe(forma)" #forma="ngForm" class="">
+                <div class="mb-3">
+                    <label for="" class="form-label">Recipe text</label>
+                    <input type="text" class="form-control" ngModel name="text" required>
+                </div>
+                <button type="submit" class="btn btn-success" [disabled]="!forma.valid">Post</button>
+            </form> -->
+            <form [formGroup]="recipeForm">
+              <div class="mb-3">
+                <label for="" class="form-label">Recipe name</label>
+                <input formControlName="recipeName" class="form-control" >
+                <span *ngIf="recipeName.invalid && recipeName.touched">
+                  Your recipeName does not look right!
+              </span>
+              </div>
+              <div class="d-flex">
+              <div class="mb-3 w-50 " style="padding-right: 8px;">
+                <label for="" class="form-label">Preparation time</label>
+                <input formControlName="recipePrepTime" class="form-control timepicker" type="time"  >
+                <span *ngIf="recipePrepTime.invalid && recipePrepTime.touched">
+                  Your preparation time does not look right
+              </span>
+              </div>
+              <div class="mb-3 w-50" style="padding-left: 8px;">
+                <label for="" class="form-label">Cooking time</label>
+                <input  formControlName="recipeCookTime" class="form-control timepicker" type="time"  >
+                <span *ngIf="recipeCookTime.invalid && recipeCookTime.touched">
+                  Your cooking time does not look right
+              </span>
+              </div>
+            </div>
+              <div class="mb-3 ">
+              <label for="" class="form-label">Description</label>
+              <textarea formControlName="recipeText" class="form-control" rows="6"></textarea>
+              <span *ngIf="recipeText.invalid && recipeText.touched">
+                Your recipeText does not look right
+              </span>
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label mt-3">Image URL</label>
+                <input type="url" name="url" id="url"
+                placeholder="https://example.com"
+                pattern="https://.*" size="30"
+                required formControlName="recipeImg"  class="form-control" >
+                <span *ngIf="recipeImg.invalid && recipeImg.touched">
+                  Your recipe image does not look right
+              </span>
+              </div>
+              <!-- <app-file-upload></app-file-upload> -->
+           
+            
+             <div formArrayName="ingredients"> 
+               <label for="" class="form-label mt-3 d-inline-block">Ingredients</label>
+              <div class="d-flex my-2" *ngFor="let ingredient of ingredientForms.controls; let i=index" [formGroupName]="i">
+                  <input class="form-control mt-1" formControlName="ingredient" placeholder="ingredient" >
+                  <input class="form-control  w-50 mt-1 mx-3"  formControlName="amount"  type="number" placeholder="amount">
+                  <input class="form-control w-25 mt-1"  formControlName="units" placeholder="units">
+                  <button style="margin-left: 16px;" class="btn btn-dark mt-1" (click)="deleteIngredient(i)">Delete</button>
+                </div>
+                <br>
+              <button class="btn btn-outline-dark" (click)="addIngredient()">+ Add ingredient</button>
+          </div>
+        
+<br>
+          <button class="btn btn-dark mt-1" (click)="onPostRecipe(recipeForm)" [disabled]="recipeForm.invalid">Post</button>
+
+            </form>
+        </div>
+    </div>
+</div>

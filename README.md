@@ -1,20 +1,20 @@
 # Recipebook
 
-HTML + CSS + ANGULAR.JS
-This project is for Front-End development course @ Baltic Institute of Technology.
+HTML + CSS + ANGULAR.JS <br>
+This project is for Front-End development course @ Baltic Institute of Technology.<br>
 
-Live preview:
-https://recipebook-e4caa.web.app/
+Live preview:<br>
+https://recipebook-e4caa.web.app/<br>
 
-Log in to write recipes:
+Log in to write recipes:<br>
 
-email: test@test.lt
-password: testtest
+email: test@test.lt<br>
+password: testtest<br>
 
 
 
-NOTE!
-Project built for learning purposes only.
+NOTE!<br>
+Project built for learning purposes only.<br>
 
 
 

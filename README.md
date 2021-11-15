@@ -1,11 +1,10 @@
 # Recipebook
 
-HTML + CSS
+HTML + CSS + ANGULAR.JS
 This project is for Front-End development course @ Baltic Institute of Technology.
 
 Live preview:
-https://dzajenckauskas.github.io/Alchemy/
-
+https://recipebook-e4caa.web.app/
 
 Log in to write recipes:
 

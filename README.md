@@ -1,5 +1,25 @@
 # Recipebook
 
+HTML + CSS
+This project is for Front-End development course @ Baltic Institute of Technology.
+
+Live preview:
+https://dzajenckauskas.github.io/Alchemy/
+
+
+Log in to write recipes:
+
+email: test@test.lt
+password: testtest
+
+
+
+NOTE!
+Project built for learning purposes only.
+
+
+
+
 ## Task:
 
 + Sukurkime receptų knygą prie kurios vartotojai turėtų galimybę prisiregistruoti/prisijungti. 

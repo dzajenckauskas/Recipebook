@@ -6,14 +6,14 @@ This project is for Front-End development course @ Baltic Institute of Technolog
 Live preview:<br>
 https://recipebook-e4caa.web.app/<br>
 
-Log in to write recipes:<br>
-
+!! LOG IN to READ AND WRITE recipes :<br>
 email: test@test.lt<br>
 password: testtest<br>
 
 
 
-NOTE!<br>
+!! NOTE!<br>
+LOGIN AS ADMIN to delete recipes also<br>
 Project built for learning purposes only.<br>
 
 
@@ -45,7 +45,7 @@ Project built for learning purposes only.<br>
 //2. Susikurti prisijungimo komponentą, susikurti prisijungimo servisą,
 //3. Susikurti routinimą ir padaryti rautą į prisijungimo komponentą
 //4. Susikurti prisijungimo komponento HTML failą su forma
-5. Susiprogramuoti prisijungimo servisą: Login, Logout, AutoLogin
+//5. Susiprogramuoti prisijungimo servisą: Login, Logout, AutoLogin
 
 
 

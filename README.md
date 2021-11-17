@@ -1,18 +1,18 @@
 # Recipebook
 
-HTML + CSS + BOOTSTRAP + ANGULAR.JS  <br>
+# HTML + CSS + BOOTSTRAP + ANGULAR.JS  <br>
 This project is for Front-End development course @ Baltic Institute of Technology.<br>
 
-Live preview:<br>
+# Live preview:<br>
 https://recipebook-e4caa.web.app/<br>
 
-!! LOG IN to READ AND WRITE recipes :<br>
-email: test@test.lt<br>
-password: testtest<br>
+# !! LOG IN to READ AND WRITE recipes :<br>
+## email: test@test.lt<br>
+## password: testtest<br>
 
 
 
-!! NOTE!<br>
+# !! NOTE!<br>
 LOGIN AS ADMIN to delete recipes also<br>
 Project built for learning purposes only.<br>
 

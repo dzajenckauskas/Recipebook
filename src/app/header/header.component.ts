@@ -47,8 +47,16 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
   }
 
+  reloadCurrentRoute() {
+    let currentUrl = this.router.url;
+    this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
+      this.router.navigate([currentUrl]);
+    });
+  }
+
   onClk() {
     console.log(this.loggedIn, "LOGGED?");
+
 
   }
 
@@ -74,6 +82,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
     this.navigationService.logInSubject.next(true);
 
     this.authService.reloadCurrentRoute();
+
 
   }
 

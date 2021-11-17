@@ -31,7 +31,6 @@
     <a
       class="navbar-brand col-md-2"
       href="javascript:void(0);"
-      routerLink="read-recipes"
       routerLinkActive="active"
       [routerLinkActiveOptions]="{ exact: true }"
     >
@@ -91,12 +90,10 @@
           float-clear
         "
       >
-        <li class="nav-item my-2">
+        <li class="nav-item my-2" *ngIf="loggedIn">
           <a
-            href=""
+            href="read-recipes"
             class="nav-link nav-link-action"
-            routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }"
             [routerLink]="['read-recipes']"
             >Read recipes</a
           >
